@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #5956E9;
+}
+
+.container{
+  max-width: 1440px;
+  padding: 0 15px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width:768px) {
+  .container{
+    padding: 0 40px;
+  }
+}
+
+@media (max-width:556px) {
+  .container{
+    padding: 0 16px;
+  }
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: #5956E9;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: 'JosefinSemiBold';
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.link{
+  font-family: 'JosefinSemiBold';
+  font-size: 20px;
+  transition: .3s all ease-in-out;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+.link:hover{
+  color: #5956E9;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.swiper_container{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 672px;
+  position: relative;
+}
+
+@media (max-width:768px) {
+  .swiper_container{
+    height: 500px;
+  }
+}
+
+.swiper-slide {
+  position: relative;
+  width: 300px !important;
+  height: 600px !important;
+  opacity: .8;
+  margin: 0 28px;
+}
+
+@media (max-width:768px) {
+  .swiper-slide{
+    width: 225px !important;
+    height: 445px !important;
+    margin: 0 14px;
+  }
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+  bottom: 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+  width: 16px;
+  height: 16px;
+  background: #5956E9;
+  opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  position: relative;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 1px solid #5956E9;
+  border-radius: 50%;
+}

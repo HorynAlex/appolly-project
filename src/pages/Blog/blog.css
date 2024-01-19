@@ -1,0 +1,214 @@
+.home {
+  background-image: url("../../Assets/Img/Home/BackgroundImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 220px;
+  padding-bottom: 75px;
+}
+.home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.home .container .title {
+  font-size: 48.83px;
+  line-height: 130%;
+  font-family: "JosefinBold";
+  color: #fff;
+  margin-bottom: 10px;
+}
+.home .container .place {
+  display: flex;
+}
+.home .container .place .img-box {
+  margin-right: 10px;
+}
+.home .container .place .img-box img {
+  width: 18px;
+  height: 18px;
+}
+.home .container .place .road {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "JosefinRegular";
+  line-height: 24px;
+}
+.home .container .place .road .way {
+  text-decoration: none;
+  color: #fff;
+}
+.posts {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.posts .container .main_post {
+  width: 73%;
+  margin-right: 30px;
+}
+.posts .container .main_post .box-container .box {
+  margin-bottom: 60px;
+}
+.posts .container .main_post .box-container .box img {
+  margin-bottom: 50px;
+}
+.posts .container .main_post .box-container .box .info .title {
+  font-size: 39.06px;
+  text-transform: uppercase;
+  font-family: "JosefinSemiBold";
+  line-height: 58.5px;
+  color: #232233;
+  margin-bottom: 18px;
+}
+.posts .container .main_post .box-container .box .info .desc {
+  color: #6C6C72;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  font-family: "JosefinRegular";
+}
+.posts .container .main_post .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #6C6C72;
+  padding-top: 40px;
+}
+.posts .container .main_post .pagination .page-item {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "JosefinSemiBold";
+  color: #6C6C72;
+  margin-right: 30px;
+}
+.posts .container .main_post .pagination .page-item:last-child {
+  margin-right: 0;
+}
+.posts .container .main_post .pagination .page-item.active {
+  text-decoration: underline;
+  color: #5956E9;
+}
+.posts .container .recent_post {
+  width: 27%;
+}
+.posts .container .recent_post .input-box {
+  border-bottom: 1px solid #6C6C72;
+  padding-bottom: 40px;
+}
+.posts .container .recent_post .input-box input {
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: 1px solid #6C6C72;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "JosefinSemiBold";
+}
+.posts .container .recent_post .input-box input::-moz-placeholder {
+  color: #6C6C72;
+}
+.posts .container .recent_post .input-box input::placeholder {
+  color: #6C6C72;
+}
+.posts .container .recent_post .box-container {
+  border-bottom: 1px solid #6C6C72;
+  padding-bottom: 40px;
+}
+.posts .container .recent_post .box-container .title {
+  text-transform: uppercase;
+  font-size: 31.25px;
+  font-family: "JosefinBold";
+  color: #232233;
+  line-height: 47.3px;
+  margin-top: 13px;
+}
+.posts .container .recent_post .box-container .box {
+  margin-bottom: 40px;
+}
+.posts .container .recent_post .box-container .box:last-child {
+  margin-bottom: 0;
+}
+.posts .container .recent_post .box-container .box .title {
+  font-size: 20px;
+  line-height: 30px;
+}
+.posts .container .recent_post .category {
+  border-bottom: 1px solid #6C6C72;
+  padding-bottom: 40px;
+}
+.posts .container .recent_post .category .title {
+  margin-top: 40px;
+  margin-bottom: 13px;
+  font-size: 31.25px;
+  line-height: 47.3px;
+  color: #232233;
+  text-transform: uppercase;
+  font-family: "JosefinBold";
+}
+.posts .container .recent_post .category .category-list .category-item {
+  display: flex;
+  align-items: center;
+}
+.posts .container .recent_post .category .category-list .category-item .img-box {
+  margin-right: 18px;
+}
+.posts .container .recent_post .category .category-list .category-item .img-box .img {
+  width: 24px;
+  height: 24px;
+}
+.posts .container .recent_post .category .category-list .category-item h5 {
+  color: #6C6C72;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "JosefinSemiBold";
+  text-transform: uppercase;
+}
+.posts .container .recent_post .tags {
+  margin-top: 40px;
+}
+.posts .container .recent_post .tags .title {
+  margin-bottom: 13px;
+  font-size: 31.25px;
+  line-height: 47.3px;
+  color: #232233;
+  text-transform: uppercase;
+  font-family: "JosefinBold";
+}
+.posts .container .recent_post .tags .tags-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.posts .container .recent_post .tags .tags-list .tags-item {
+  margin-right: 30px;
+  margin-bottom: 18px;
+}
+.posts .container .recent_post .tags .tags-list .tags-item:last-child {
+  margin-right: 0;
+}
+.posts .container .recent_post .tags .tags-list .tags-item a {
+  text-decoration: underline;
+  color: #232233;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "JosefinSemiBold";
+  text-transform: uppercase;
+}/*# sourceMappingURL=blog.css.map */
