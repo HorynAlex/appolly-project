@@ -13,12 +13,26 @@ import { Link } from 'react-router-dom'
 const Header = () => {
 
   const [active, setActive] = useState(false)
+  const [hide, setHide] = useState(false)
   const navbar = useRef()
 
-  window.addEventListener('scroll', function(){
-    var header = document.querySelector('.header');
-    header.classList.toggle('sticky', this.window.scrollY > 50)
-  })
+  const header = document.querySelector('header');
+  let prevScroll = window.pageYOffset
+
+  function setHidens(){
+    let currentScroll = window.pageYOffset
+    if(prevScroll < currentScroll){
+      setHide(true)
+      console.log('we are going down')
+    } else{
+      setHide(false)
+      console.log('we are going up')
+    }
+
+    prevScroll = currentScroll
+  }
+
+  window.addEventListener("scroll", setHidens);
 
   useEffect(()=>{
     const handle = (e) => {
@@ -35,7 +49,7 @@ const Header = () => {
   },[])
 
   return (
-    <header className='header'>
+    <header className={hide ? 'header hide' : 'header'}>
       <div className="container">
         <div className="header_top">
           <div className="left">

@@ -40,11 +40,15 @@ const Blog_info = () => {
 
   const {id} = useParams();
 
+  const UpToTop = () => {
+    window.scrollTo(0,0)
+  }
+
   return (
     <>
       <Header></Header>
 
-      <section className="home">
+      <section className="home" onLoad={UpToTop}>
         <div className="container">
           <h1 className="title">
             The Snap Pixel: How It Works and How to Install 
