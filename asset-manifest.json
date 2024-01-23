@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/appolly-project/static/css/main.d0d4bad4.css",
+    "main.css": "/appolly-project/static/css/main.cc740272.css",
     "main.js": "/appolly-project/static/js/main.1e75eb59.js",
     "static/media/Img-box.png": "/appolly-project/static/media/Img-box.4b2e4b7b78b4a738df46.png",
     "static/media/Image.png": "/appolly-project/static/media/Image.0c96d2da4d3e14b0e240.png",
@@ -36,11 +36,11 @@
     "static/media/BackgroundImage.png": "/appolly-project/static/media/BackgroundImage.1ea2559ff221362dd5a6.png",
     "static/media/Profile.png": "/appolly-project/static/media/Profile.e954e5a81bd159edbdec.png",
     "index.html": "/appolly-project/index.html",
-    "main.d0d4bad4.css.map": "/appolly-project/static/css/main.d0d4bad4.css.map",
+    "main.cc740272.css.map": "/appolly-project/static/css/main.cc740272.css.map",
     "main.1e75eb59.js.map": "/appolly-project/static/js/main.1e75eb59.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0d4bad4.css",
+    "static/css/main.cc740272.css",
     "static/js/main.1e75eb59.js"
   ]
 }
